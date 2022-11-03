@@ -96,3 +96,23 @@
 .hero-img {
   width: 80%;
 }
+
+/* ############################### */
+/* SERVICES*/
+/* ############################### */
+
+.services-section {
+  background-color: hsl(220, 16%, 96%);
+  padding: 3rem;
+}
+
+.card-img {
+  margin-bottom: 2rem;
+}
+
+.card-heading {
+  font-size: 2rem;
+  font-weight: 400;
+  color: hsl(233, 26%, 24%);
+  margin-bottom: 2rem;
+}
