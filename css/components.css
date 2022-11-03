@@ -1,0 +1,98 @@
+/* ############################### */
+/* NAVIGATION */
+/* ############################### */
+
+.nav-bar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 8rem;
+  box-shadow: 0 4.2rem 6.2rem rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar {
+  /* background-color: yellow; */
+}
+
+.logo {
+  align-self: center;
+}
+
+.logo img {
+  display: block;
+  width: 90%;
+}
+.nav-items {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+}
+
+.nav-item {
+  position: relative;
+  width: 100%;
+}
+
+.nav-item::after {
+  content: "";
+  height: 2.8px;
+  display: block;
+  position: absolute;
+  bottom: -60%;
+  background-color: hsl(136, 65%, 51%);
+  /* transition: all ease-in 1s; */
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: hsl(233, 8%, 62%);
+  transition: all ease-in 0.3s;
+}
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #000000b9;
+}
+
+/* ############################### */
+/* HERO*/
+/* ############################### */
+
+.hero-section {
+  /* background-color: greenyellow; */
+}
+
+.hero {
+}
+.hero-text-box {
+  /* background-color: blue; */
+}
+
+.hero-text-box {
+  padding: 8rem 5rem 5rem 5rem;
+}
+.hero-text {
+  margin-top: 5rem;
+}
+
+.hero-text-box a {
+  display: inline-block;
+  margin-top: 6rem;
+}
+
+.hero-img-box {
+  position: relative;
+  text-align: center;
+  background-image: url("../images/bg-intro-desktop.svg");
+}
+.hero-img {
+  width: 80%;
+}
