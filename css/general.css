@@ -94,7 +94,7 @@ header {
 
 .grid-container {
   display: grid;
-  gap: 9.8rem;
+  gap: 8rem;
 }
 
 .grid-2-cols {
