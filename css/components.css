@@ -123,11 +123,13 @@
 
 .articles-section {
   padding: 3rem;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .card-articles {
-  background-color: hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 100%);
   border-radius: 9px;
+  box-shadow: 0 4.2rem 6.2rem rgba(0, 0, 0, 0.01);
   overflow: hidden;
 }
 
@@ -137,12 +139,12 @@
 }
 
 .card-body {
-  padding: 2rem;
+  padding: 2.5gitrem;
 }
 
 .author {
   font-size: 1.2rem;
-  color: hsl(233, 8%, 62%);
+  color: hsl(230, 8%, 72%);
   margin-bottom: 2rem;
 }
 
