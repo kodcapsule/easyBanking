@@ -143,7 +143,7 @@
 }
 
 .card-body {
-  padding: 2.5gitrem;
+  padding: 2.5rem;
 }
 
 .author {
@@ -155,22 +155,67 @@
 .article-heading {
   font-size: 2rem;
   line-height: 1.2;
+  transition: all ease-in 0.3s;
 }
 
+.article-heading:hover {
+  color: hsl(136, 65%, 51%);
+  cursor: pointer;
+}
+/* ############################### */
+/* FOOTER/
+/* ############################### */
+
 .section-footer {
+  margin-top: 8rem;
   padding: 3rem;
   background-color: hsl(233, 26%, 24%);
 }
 
 .footer-logo {
+  color: hsl(0, 0%, 100%);
+  /* opacity: ; */
+}
+
+.social-media-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.social-media-icons img {
+  display: inline-block;
+  transition: all ease 0.3s;
+}
+
+.social-icon:hover {
+  color: hsl(136, 48%, 55%);
+  filter: brightness(0.8) sepia(1) hue-rotate(48deg) saturate(8);
 }
 
 .footer-nav-items {
   list-style: none;
 }
 
-.footer-nav-link {
+.footer-nav-link:link,
+.footer-nav-link:visited {
   font-size: 1.2rem;
   color: hsl(220, 16%, 96%);
   text-decoration: none;
+  transition: all ease-in 0.3s;
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:active {
+  color: hsl(136, 65%, 51%);
+}
+
+.footer-cta a {
+  padding-left: 1rem;
+}
+
+.copyrights {
+  font-size: 1.2rem;
+  color: hsl(233, 8%, 62%);
+  padding-top: 2rem;
 }
