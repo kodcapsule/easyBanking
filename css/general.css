@@ -44,7 +44,7 @@ header {
   font-size: 1.5rem;
   font-weight: 500;
   color: hsl(0, 0%, 100%);
-  padding: 0.5rem 2.2rem;
+  padding: 0.8rem 2.2rem;
   border-radius: 20px;
 
   transition: all 0.3s;
@@ -90,11 +90,17 @@ header {
 .cta:hover,
 .cta:active {
   opacity: 0.65;
+  color: hsl(0, 0%, 100%);
 }
 
 .grid-container {
   display: grid;
   gap: 4rem;
+}
+
+.footer-grid-container {
+  display: grid;
+  gap: 1rem;
 }
 
 .grid-2-cols {

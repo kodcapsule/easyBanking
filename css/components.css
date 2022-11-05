@@ -172,9 +172,11 @@
   background-color: hsl(233, 26%, 24%);
 }
 
+.footer_logo--icons_container {
+  width: 80%;
+}
 .footer-logo {
-  color: hsl(0, 0%, 100%);
-  /* opacity: ; */
+  fill: hsl(0, 0%, 100%);
 }
 
 .social-media-icons {
@@ -205,13 +207,21 @@
   transition: all ease-in 0.3s;
 }
 
+.about-us {
+  width: 70%;
+}
+
 .footer-nav-link:hover,
 .footer-nav-link:active {
   color: hsl(136, 65%, 51%);
 }
 
 .footer-cta a {
-  padding-left: 1rem;
+  margin-left: 4rem;
+}
+
+.footer-cta a:hover {
+  opacity: 0.7;
 }
 
 .copyrights {
