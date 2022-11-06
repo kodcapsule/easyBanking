@@ -19,11 +19,12 @@
 
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <title>Frontend Mentor | Easybank landing page</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
 
       <div class="nav-bar-container">
         
@@ -39,9 +40,15 @@
             <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Careers</a></li>
           </ul>
+          <a href="#" class="btn cta">Request Invite</a>
         </nav>        
 
-        <a href="#" class="btn cta">Request Invite</a>
+        <!-- <a href="#" class="btn cta">Request Invite</a> -->
+
+        <button class="mobile-nav-btn">
+          <img src="images/icon-hamburger.svg" alt="Menu icon" class="mobile-nav-icon">
+          <img src="images/icon-close.svg" alt="Close icon" class="mobile-nav-icon hide-icon">
+        </button>
       </nav>
 
       </div>
