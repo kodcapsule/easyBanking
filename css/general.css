@@ -29,6 +29,7 @@ header {
 .container {
   max-width: 140rem;
   margin: 0 auto;
+  padding: 1rem 3rem;
 }
 
 .attribution {
