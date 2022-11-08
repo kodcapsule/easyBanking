@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   /* padding: 1rem 0rem; */
+  padding: 1rem 6rem;
   box-shadow: 0 4.2rem 6.2rem rgba(0, 0, 0, 0.1);
 }
 
@@ -73,6 +74,10 @@
   color: #000000b9;
 }
 
+.nav-cta {
+  justify-items: start;
+}
+
 /* ############################### */
 /* Mobile Navigation/
 /* ############################### */
@@ -109,7 +114,8 @@
 */
 
 .hero-text-box {
-  padding: 8rem 5rem 5rem 5rem;
+  width: 80%;
+  padding: 15rem 0rem;
 }
 .hero-text {
   margin-top: 5rem;
@@ -121,7 +127,7 @@
 }
 
 .hero-img-box {
-  position: relative;
+  width: 100%;
   text-align: center;
   background-image: url("../images/bg-intro-desktop.svg");
 }

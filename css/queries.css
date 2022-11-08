@@ -1,3 +1,6 @@
+@media (max-width: 90em) {
+}
+
 @media (max-width: 44em) {
   .nav-bar {
     flex-direction: column;
