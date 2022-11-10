@@ -27,7 +27,7 @@ header {
 }
 
 .container {
-  max-width: 140rem;
+  max-width: 120rem;
   margin: 0 auto;
   padding: 1rem 0rem;
 }
@@ -67,7 +67,7 @@ header {
 }
 
 .primary-heading {
-  font-size: 6.5rem;
+  font-size: 6.3rem;
   font-weight: 500;
   line-height: 1;
   letter-spacing: 1;
@@ -83,11 +83,11 @@ header {
   padding: 6rem 0;
 }
 .paragraph-text {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.6;
   color: hsl(233, 8%, 62%);
-  padding-right: 9rem;
+  /* padding-right: 9rem; */
 }
 .cta:hover,
 .cta:active {
@@ -97,7 +97,7 @@ header {
 
 .grid-container {
   display: grid;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .footer-grid-container {
