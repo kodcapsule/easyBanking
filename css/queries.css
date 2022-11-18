@@ -31,18 +31,19 @@
 
 @media (max-width: 44em) {
   .nav-bar {
+    position: absolute;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hsl(136, 65%, 51%);
-    position: absolute;
+    background-color: #fff;
     width: 55%;
-    /* height: 50vh; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, 10%);
     border-radius: 10px;
+    box-shadow: 0 4.2rem 6.2rem rgba(0, 0, 0, 0.1);
   }
+
   .articles,
   .services {
     grid-template-columns: repeat(2, 1fr);

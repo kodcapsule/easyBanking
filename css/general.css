@@ -13,7 +13,6 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   /* overflow: hidden; */
-
   position: relative;
 }
 
@@ -26,6 +25,14 @@ header {
   z-index: 90;
 }
 
+/* .body-overlay {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 1;
+} */
 .container {
   max-width: 120rem;
   margin: 0 auto;
@@ -111,4 +118,18 @@ header {
 
 .grid-4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
 }
