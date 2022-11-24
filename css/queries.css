@@ -78,7 +78,8 @@
   }
 }
 
-@media (max-width: 24em) {
+@media (max-width: 31em) {
+  .hero-section,
   .articles,
   .services,
   .footer-sec {
@@ -87,6 +88,26 @@
     text-align: center;
   }
 
+  .hero-img-box {
+    grid-row: 1;
+  }
+  .hero-text-box {
+    grid-row: 2;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .articles-section,
+  .services-section {
+    padding: 0rem 7rem;
+  }
+}
+
+/* -------------------------------------------- */
+
+@media (max-width: 24em) {
   .footer-sec {
     justify-content: center;
     align-items: center;
@@ -94,5 +115,11 @@
 
   .footer_logo--icons_container {
     justify-self: center;
+  }
+
+  .articles-section,
+  .services-section {
+    padding: 0rem 4rem;
+    text-align: center;
   }
 }
