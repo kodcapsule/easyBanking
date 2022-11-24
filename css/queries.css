@@ -77,3 +77,22 @@
     display: none;
   }
 }
+
+@media (max-width: 24em) {
+  .articles,
+  .services,
+  .footer-sec {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+    text-align: center;
+  }
+
+  .footer-sec {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer_logo--icons_container {
+    justify-self: center;
+  }
+}
