@@ -33,12 +33,7 @@
   display: flex;
   gap: 5rem;
   list-style: none;
-  /* justify-content: space-between; */
 }
-
-/* .nav-items {
-  flex-direction: column;
-} */
 
 .nav-item {
   position: relative;
@@ -52,7 +47,6 @@
   position: absolute;
   bottom: -60%;
   background-color: hsl(136, 65%, 51%);
-  /* transition: all ease-in 1s; */
 }
 
 .nav-item:hover::after {
@@ -99,23 +93,12 @@
 /* HERO*/
 /* ############################### */
 
-.hero-section {
-  /* background-color: greenyellow; */
-
-  padding: 3rem;
-}
-
-/*
 .hero {
-}
-.hero-text-box {
-  background-color: blue; 
+  gap: 0;
 }
 
-*/
-
 .hero-text-box {
-  width: 90%;
+  width: 72%;
   padding: 15rem 0rem;
 }
 .hero-text {
@@ -128,12 +111,28 @@
 }
 
 .hero-img-box {
+  position: relative;
   width: 100%;
   text-align: center;
+  /* background-image: url("../images/bg-intro-desktop.svg"); */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-image1 {
   background-image: url("../images/bg-intro-desktop.svg");
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: -9%;
+  z-index: 1;
 }
 .hero-img {
-  width: 80%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 /* ############################### */
